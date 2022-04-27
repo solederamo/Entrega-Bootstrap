@@ -1,0 +1,236 @@
+/*Header pagina*/
+
+.headerimagen {display: flex;}
+
+header div img {width: 100%;
+        justify-content: center;
+        align-items: center;}
+
+.logo {display: flex;
+        width: 50px;
+        height: 50px;
+        margin:10px;}
+
+.divlogo :hover {transform: rotateX(360deg);
+        transition-duration: 5s;
+        transition-timing-function: ease-in-out;} 
+        
+
+.navegadorindex {display: flex;
+        justify-content: space-between;
+        align-items:center;
+        justify-content: center;
+        width: 100%;} 
+
+.navbar {display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;}
+
+.bg-light {background-color: rgba(107, 109, 223, 0.603) !important;}
+
+.tituloindex {display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: white;
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: rgba(107, 109, 223, 0.603);
+        font-weight: bold;
+        height: 30px;}
+
+.subtituloindex {grid-area: subtitulo;
+        font-family:'Quicksand', sans-serif;
+        font-weight:bolder;
+        font-size: 15px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;}
+
+.imagenesindex {display: flex;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                margin-left: 20px;
+                margin-right: 20px;
+                justify-content: space-evenly;
+                flex-direction: row;
+                flex-wrap: wrap;}
+
+.fotostam {display: flex;
+        width: 150px;
+        height: 100px;
+        padding-top: 10px;}
+
+.imagenesindex :hover {transform: scale(2.8);
+        transition-timing-function: ease-in-out; 
+        transition-duration: 1s;
+        border-radius: 20px;}   
+        
+.videoindex {display: flex;
+        justify-content: center;}
+
+footer {grid-area: footer;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        background-position:left;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bolder;
+        color: white;
+        margin-top:10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 15px;}
+
+.textofooter {text-decoration: none;
+        list-style-type: none;}
+
+/*Segunda pagina*/
+.mainnosotros {background-color: white;}
+
+.quienessomos {display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                text-align: center;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: italic;
+                font-size: 20px;
+                color:white;
+                background-color: black;
+                height: 40px;}
+
+.texto1 {font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;}     
+        
+.logo1 {display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-top: 10px;
+        width: 100%;}
+
+.imagen1 {width: 150px;
+        margin-left: 150px;}
+
+.porque {display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+        color:rgb(106, 134, 226);
+        margin-top: 30px;}
+
+.items {list-style-type:none;
+        text-align:center;
+        flex-wrap: wrap;
+        font-size: 20px;
+        font-family:'Quicksand', sans-serif;}
+
+.fotostam1 {display: flex;
+        width: 100px;
+        height: 100px;
+        padding-top: 10px;}
+
+/*Formulario css*/
+form {font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+        margin: 0 auto;
+        width: 300px;
+        background-color:rgb(93, 169, 231);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        color: rgb(37, 37, 37);
+        border-radius: 15px;
+        border-color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: left;}
+
+form div {padding-top: 1px;
+        padding-bottom: 1px;}
+
+form input {padding-top: 1px;
+        padding-bottom: 1px;
+        margin-top: 3px;}
+
+form textarea {padding-top: 1px;
+        padding-bottom: 20px;
+        margin-top: 3px;}
+
+.galeria {color: rgb(246, 246, 250);
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        background-color: rgb(137, 126, 228);
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;}
+        
+
+.imagencard {width: 50%;
+        padding: 30px;} 
+
+.card-title {display: flex;
+justify-content: center;
+color:rgb(93, 169, 231);
+font-size: 30px;
+margin-top: 15px;
+margin-bottom: 15px;}
+
+
+.card {display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+        
+
+           
+
+
+
+
+
+
+   
